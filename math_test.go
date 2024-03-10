@@ -11,3 +11,13 @@ func TestSoma(t *testing.T) {
 	}
 
 }
+
+func Testsubtrai(t *testing.T) {
+
+	total := subtrai(15, 15)
+
+	if total != 0 {
+		t.Errorf("resultado da subtracao e invalido: Resultado %d. Esperado: %d", total, 0)
+	}
+
+}
